@@ -1,0 +1,173 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - link "Carnage X-Ray home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=e6]: ╳
+      - generic [ref=e7]:
+        - text: CARNAGE
+        - generic [ref=e8]: X-RAY
+    - navigation "Main navigation" [ref=e9]:
+      - link "Explore" [ref=e10] [cursor=pointer]:
+        - /url: /explore
+      - link "Vehicle systems" [ref=e11] [cursor=pointer]:
+        - /url: /systems
+      - link "Cybersecurity" [ref=e12] [cursor=pointer]:
+        - /url: /cybersecurity
+      - link "Threat atlas" [ref=e13] [cursor=pointer]:
+        - /url: /threats
+      - link "Knowledge" [ref=e14] [cursor=pointer]:
+        - /url: /knowledge
+    - generic [ref=e15]:
+      - link "Search knowledge" [ref=e16] [cursor=pointer]:
+        - /url: /knowledge
+      - link "Open explorer" [ref=e20] [cursor=pointer]:
+        - /url: /explore
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: AUTOMOTIVE ENGINEERING, UNDER THE SURFACE
+        - generic [ref=e28]: INTERACTIVE FIELD GUIDE / VOL. 01
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading [level=1] [ref=e32]:
+            - text: See themachine.
+            - generic [ref=e33]: Understandthe security.
+          - paragraph [ref=e34]: From the parts that move you to the systems that protect you.Explore a vehicle, one layer at a time.
+          - link "Explore the vehicle" [ref=e35] [cursor=pointer]:
+            - /url: /explore
+          - generic [ref=e39]: NO ACCOUNT. JUST CURIOSITY.
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: CX—01
+            - generic [ref=e43]: CONNECTED ELECTRIC / CONCEPT STUDY
+          - generic [ref=e46]:
+            - img "Four-door electric vehicle concept, showing its complete exterior and both visible wheels in a blue studio" [ref=e47]
+            - link "+ Electric drive" [ref=e48] [cursor=pointer]:
+              - /url: /explore?component=motor
+              - generic [ref=e49]: +
+              - emphasis [ref=e50]: Electric drive
+            - link "+ Energy beneath the surface" [ref=e54] [cursor=pointer]:
+              - /url: /explore?component=battery
+              - generic [ref=e55]: +
+              - emphasis [ref=e56]: Energy beneath the surface
+          - generic [ref=e60]:
+            - generic [ref=e61]: IMAGE-BASED EXPLORATION
+            - link "Reveal the connections" [ref=e63] [cursor=pointer]:
+              - /url: /explore?component=gateway&mode=Network
+      - generic [ref=e66]:
+        - link "KEEP EXPLORING" [ref=e67] [cursor=pointer]:
+          - /url: "#layers"
+        - paragraph [ref=e70]: See the Machine. Understand the Security.
+        - generic [ref=e71]: 01 — 06 EXPLORATION LAYERS
+    - generic [ref=e72]:
+      - paragraph [ref=e73]: A car is more than its exterior.
+      - heading "A physical machine. An electronic ecosystem. A connected security story." [level=2] [ref=e74]: A physical machine.An electronic ecosystem.A connected security story.
+      - generic [ref=e75]:
+        - paragraph [ref=e76]: Understand what a system does before asking how it can fail. Follow the connections from mechanical operation to digital trust.
+        - link "Start with the fundamentals" [ref=e77] [cursor=pointer]:
+          - /url: /systems
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]: "02"
+        - generic [ref=e84]: // EXPLORE THE LAYERS
+        - generic [ref=e85]: ONE CONNECTED PICTURE
+      - generic [ref=e86]:
+        - heading "Clarity across every layer." [level=2] [ref=e87]
+        - paragraph [ref=e88]: Understand the mechanics. Trace the signals.Discover the boundaries that keep systems secure.
+      - generic [ref=e89]:
+        - link "01 / The physical machine Explore propulsion, braking, steering and the engineering that turns energy into motion. 29 COMPONENT GUIDES" [ref=e91] [cursor=pointer]:
+          - /url: /systems
+          - generic [ref=e92]: 01 /
+          - generic [ref=e108]:
+            - heading "The physical machine" [level=3] [ref=e109]
+            - paragraph [ref=e110]: Explore propulsion, braking, steering and the engineering that turns energy into motion.
+            - text: 29 COMPONENT GUIDES
+        - link "02 / The electronic ecosystem Follow sensors, controllers and communication links. See how information becomes action. 6 EXPLORATION MODES" [ref=e112] [cursor=pointer]:
+          - /url: /explore?mode=Network&component=gateway
+          - generic [ref=e113]: 02 /
+          - generic [ref=e141]:
+            - heading "The electronic ecosystem" [level=3] [ref=e142]
+            - paragraph [ref=e143]: Follow sensors, controllers and communication links. See how information becomes action.
+            - text: 6 EXPLORATION MODES
+        - link "03 / The security architecture Connect documented attack surfaces to trust boundaries, safeguards and their limitations. 12 PROTECTION TOPICS" [ref=e145] [cursor=pointer]:
+          - /url: /cybersecurity
+          - generic [ref=e146]: 03 /
+          - generic [ref=e159]:
+            - heading "The security architecture" [level=3] [ref=e160]
+            - paragraph [ref=e161]: Connect documented attack surfaces to trust boundaries, safeguards and their limitations.
+            - text: 12 PROTECTION TOPICS
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - paragraph [ref=e164]: 03 / FOLLOW YOUR CURIOSITY
+        - heading "One component. A bigger understanding." [level=2] [ref=e165]: One component.A bigger understanding.
+        - paragraph [ref=e166]: Take keyless entry. First understand the credential. Then examine proximity, authentication and the difference between a valid key and a nearby key.
+        - link "Explore keyless entry" [ref=e167] [cursor=pointer]:
+          - /url: /explore?component=keyless
+      - list [ref=e170]:
+        - listitem [ref=e171]:
+          - link "01 The system How does the key and vehicle exchange information?" [ref=e172] [cursor=pointer]:
+            - /url: /systems/keyless
+            - generic [ref=e173]: "01"
+            - generic [ref=e174]:
+              - heading "The system" [level=3] [ref=e175]
+              - paragraph [ref=e176]: How does the key and vehicle exchange information?
+        - listitem [ref=e180]:
+          - link "02 The trust boundary What does authentication actually prove?" [ref=e181] [cursor=pointer]:
+            - /url: /cybersecurity/proximity
+            - generic [ref=e182]: "02"
+            - generic [ref=e183]:
+              - heading "The trust boundary" [level=3] [ref=e184]
+              - paragraph [ref=e185]: What does authentication actually prove?
+        - listitem [ref=e189]:
+          - link "03 The threat Why can a relayed signal still be authentic?" [ref=e190] [cursor=pointer]:
+            - /url: /threats/relay
+            - generic [ref=e191]: "03"
+            - generic [ref=e192]:
+              - heading "The threat" [level=3] [ref=e193]
+              - paragraph [ref=e194]: Why can a relayed signal still be authentic?
+        - listitem [ref=e198]:
+          - link "04 The protection How can secure ranging add proximity evidence?" [ref=e199] [cursor=pointer]:
+            - /url: /cybersecurity/proximity
+            - generic [ref=e200]: "04"
+            - generic [ref=e201]:
+              - heading "The protection" [level=3] [ref=e202]
+              - paragraph [ref=e203]: How can secure ranging add proximity evidence?
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - paragraph [ref=e209]: 04 / THREAT ATLAS
+        - heading "Understand the risk. Learn the defense." [level=2] [ref=e210]: Understand the risk.Learn the defense.
+        - paragraph [ref=e211]: Research-based explanations. Explicit prerequisites. No exploit execution.
+      - generic [ref=e212]:
+        - link "01 Keyless relay attacks" [ref=e213] [cursor=pointer]:
+          - /url: /threats/relay
+          - generic [ref=e214]: "01"
+          - text: Keyless relay attacks
+        - link "02 Unauthorized diagnostic access" [ref=e218] [cursor=pointer]:
+          - /url: /threats/diagnostic-abuse
+          - generic [ref=e219]: "02"
+          - text: Unauthorized diagnostic access
+        - link "03 ECU firmware tampering" [ref=e223] [cursor=pointer]:
+          - /url: /threats/firmware-tamper
+          - generic [ref=e224]: "03"
+          - text: ECU firmware tampering
+        - link "04 CAN message injection" [ref=e228] [cursor=pointer]:
+          - /url: /threats/can-injection
+          - generic [ref=e229]: "04"
+          - text: CAN message injection
+        - link "View all 12 threat classes" [ref=e233] [cursor=pointer]:
+          - /url: /threats
+    - generic [ref=e236]:
+      - paragraph [ref=e237]: BUILT FOR UNDERSTANDING
+      - paragraph [ref=e238]: Not every vehicle is connected.Not every connected vehicle is autonomous.The distinctions matter.
+      - link "Our approach to accuracy & sources" [ref=e239] [cursor=pointer]:
+        - /url: /about
+  - contentinfo [ref=e243]:
+    - link "CARNAGE X-RAY" [ref=e244] [cursor=pointer]:
+      - /url: /
+    - paragraph [ref=e245]: See the Machine. Understand the Security.
+    - generic [ref=e246]:
+      - link "About & sources" [ref=e247] [cursor=pointer]:
+        - /url: /about
+      - generic [ref=e251]: thecarnage.xyz · Independent education

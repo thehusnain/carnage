@@ -1,0 +1,46 @@
+- main [ref=f2e3]:
+  - generic [ref=f2e4]:
+    - link "Return to overview" [ref=f2e5] [cursor=pointer]:
+      - /url: /
+      - text: VEYRA
+    - generic [ref=f2e6]: Electric vehicle design
+    - generic [ref=f2e7]: Independent concept
+  - region "Explore vehicle systems" [ref=f2e8]:
+    - generic [ref=f2e9]:
+      - generic:
+        - generic:
+          - generic:
+            - img "Silver electric concept sedan in a studio"
+        - generic:
+          - img "Illustrative cutaway of the battery"
+      - button "Explore the battery pack" [ref=f2e10] [cursor=pointer]:
+        - generic: Battery
+      - button "Explore the drive unit" [ref=f2e13] [cursor=pointer]:
+        - generic: Electric drive
+      - button "Body colour" [ref=f2e16] [cursor=pointer]:
+        - generic: Paint
+      - button "Wheel design" [ref=f2e19] [cursor=pointer]:
+        - generic: Wheels
+    - generic:
+      - heading "Electric, inside out." [level=1]
+      - paragraph:
+        - generic: Explore beneath the surface.
+        - generic: Select a point to begin.
+  - generic [ref=f2e22]:
+    - generic "Ways to explore" [ref=f2e23]:
+      - generic [ref=f2e24]:
+        - heading "Electric drive" [level=3] [ref=f2e25]
+        - paragraph [ref=f2e26]: Lift the hood. Explore how the motor turns electricity into motion.
+      - generic [ref=f2e27]:
+        - heading "Battery architecture" [level=3] [ref=f2e28]
+        - paragraph [ref=f2e29]: Look beneath the body. Discover the energy stored under the cabin.
+      - generic [ref=f2e30]:
+        - heading "Body finishes" [level=3] [ref=f2e31]
+        - paragraph [ref=f2e32]: Five colours. From studio silver to a vivid electric green.
+      - generic [ref=f2e33]:
+        - heading "Wheel designs" [level=3] [ref=f2e34]
+        - paragraph [ref=f2e35]: Three expressions. Compare multi-spoke, aero and forged wheels.
+    - generic [ref=f2e36]:
+      - generic [ref=f2e37]: VEYRA — Design study
+      - generic [ref=f2e38]: Explore systems. Personalise the exterior.
+  - status [ref=f2e39]: Vehicle overview. Choose a system.

@@ -1,0 +1,113 @@
+- generic [ref=f12e2]:
+  - link "Skip to content" [ref=f12e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f12e4]:
+    - link "Carnage X-Ray home" [ref=f12e5] [cursor=pointer]:
+      - /url: /
+      - generic [aria-hidden] [ref=f12e6]: ╳
+      - generic [ref=f12e7]:
+        - text: CARNAGE
+        - generic [ref=f12e8]: X-RAY
+    - navigation "Main navigation" [ref=f12e9]:
+      - link "Explore" [ref=f12e10] [cursor=pointer]:
+        - /url: /explore
+      - link "Vehicle systems" [ref=f12e11] [cursor=pointer]:
+        - /url: /systems
+      - link "Cybersecurity" [ref=f12e12] [cursor=pointer]:
+        - /url: /cybersecurity
+      - link "Threat atlas" [ref=f12e13] [cursor=pointer]:
+        - /url: /threats
+      - link "Knowledge" [ref=f12e14] [cursor=pointer]:
+        - /url: /knowledge
+    - generic [ref=f12e15]:
+      - link "Search knowledge" [ref=f12e16] [cursor=pointer]:
+        - /url: /knowledge
+      - link "Open explorer" [ref=f12e20] [cursor=pointer]:
+        - /url: /explore
+  - main [ref=f12e24]:
+    - generic [ref=f12e25]:
+      - generic [ref=f12e26]:
+        - generic [ref=f12e27]:
+          - paragraph [ref=f12e28]: GET TO KNOW THE MACHINE
+          - heading "Your car. Inside & out." [level=1] [ref=f12e29]: Your car.Inside & out.
+          - paragraph [ref=f12e30]: See what the parts do.Understand how they work together.Discover what keeps them secure.
+          - link "Start exploring" [ref=f12e31] [cursor=pointer]:
+            - /url: /explore?component=body
+          - generic [ref=f12e35]: Try the car. Move over a partto lift it, or tap a part below.
+        - generic [ref=f12e39]: Preparing your interactive car…
+      - generic [ref=f12e41]:
+        - generic [ref=f12e42]:
+          - text: YOUR SELECTED SYSTEM
+          - heading "Chassis & body" [level=2] [ref=f12e43]
+          - paragraph [ref=f12e44]: The structure that supports the vehicle and protects its occupants.
+        - link "How does it work?" [ref=f12e45] [cursor=pointer]:
+          - /url: /explore?component=body
+    - generic [ref=f12e48]:
+      - generic [ref=f12e49]:
+        - paragraph [ref=f12e50]: NO EXPERIENCE NEEDED
+        - heading "A simple way to look deeper." [level=2] [ref=f12e51]
+        - paragraph [ref=f12e52]: You don’t need to know the terminology. Start with any part that makes you curious.
+      - generic [ref=f12e53]:
+        - generic [ref=f12e54]:
+          - generic [ref=f12e55]: "01"
+          - heading "Choose a part" [level=3] [ref=f12e59]
+          - paragraph [ref=f12e60]: Touch the 3D car or pick a familiar system, like brakes or steering.
+          - link "Open the explorer" [ref=f12e61] [cursor=pointer]:
+            - /url: /explore
+        - generic [ref=f12e64]:
+          - generic [ref=f12e65]: "02"
+          - heading "See how it works" [level=3] [ref=f12e71]
+          - paragraph [ref=f12e72]: Read a plain-language explanation. Follow the connections when you’re ready.
+          - link "Browse the systems" [ref=f12e73] [cursor=pointer]:
+            - /url: /systems
+        - generic [ref=f12e76]:
+          - generic [ref=f12e77]: "03"
+          - heading "Understand the security" [level=3] [ref=f12e82]
+          - paragraph [ref=f12e83]: Learn what can go wrong, what protects the system, and where the limits are.
+          - link "Learn about protection" [ref=f12e84] [cursor=pointer]:
+            - /url: /cybersecurity
+    - generic [ref=f12e87]:
+      - generic [ref=f12e88]:
+        - generic [ref=f12e89]: THE BIGGER PICTURE
+        - generic [ref=f12e90]: MECHANICS → ELECTRONICS → SECURITY
+      - generic [ref=f12e91]:
+        - heading "Clarity across every layer." [level=2] [ref=f12e92]
+        - paragraph [ref=f12e93]: The same vehicle. Three connected ways to understand it.
+      - generic [ref=f12e94]:
+        - link [ref=f12e96] [cursor=pointer]:
+          - /url: /systems
+          - generic [ref=f12e108]:
+            - heading "What moves the car?" [level=3] [ref=f12e109]
+            - paragraph [ref=f12e110]: Engines, motors, gears, brakes and the physical parts you can see.
+            - generic [ref=f12e111]: Take a closer look
+        - link [ref=f12e116] [cursor=pointer]:
+          - /url: /knowledge?kind=Concept
+          - generic [ref=f12e140]:
+            - heading "What connects the parts?" [level=3] [ref=f12e141]
+            - paragraph [ref=f12e142]: Sensors take measurements. Computers make decisions. Networks carry information.
+            - generic [ref=f12e143]: Take a closer look
+        - link [ref=f12e148] [cursor=pointer]:
+          - /url: /cybersecurity
+          - generic [ref=f12e157]:
+            - heading "What protects the systems?" [level=3] [ref=f12e158]
+            - paragraph [ref=f12e159]: Keys, trusted software and carefully controlled connections.
+            - generic [ref=f12e160]: Take a closer look
+    - generic [ref=f12e164]:
+      - heading "A few things worth knowing." [level=2] [ref=f12e165]
+      - generic [ref=f12e166]:
+        - group [ref=f12e167]:
+          - generic "Do I need to understand cars first?" [ref=f12e168] [cursor=pointer]
+        - group [ref=f12e169]:
+          - generic "Is this a real vehicle model?" [ref=f12e170] [cursor=pointer]
+        - group [ref=f12e171]:
+          - generic "Are all modern cars autonomous?" [ref=f12e172] [cursor=pointer]
+        - link "About the project & sources" [ref=f12e173] [cursor=pointer]:
+          - /url: /about
+  - contentinfo [ref=f12e177]:
+    - link "CARNAGE X-RAY" [ref=f12e178] [cursor=pointer]:
+      - /url: /
+    - paragraph [ref=f12e179]: See the Machine. Understand the Security.
+    - generic [ref=f12e180]:
+      - link "About & sources" [ref=f12e181] [cursor=pointer]:
+        - /url: /about
+      - generic [ref=f12e185]: thecarnage.xyz · Independent education

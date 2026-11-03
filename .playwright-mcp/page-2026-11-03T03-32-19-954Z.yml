@@ -1,0 +1,126 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - link "Skip to content" [ref=f9e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f9e4]:
+      - link "Carnage X-Ray home" [ref=f9e5] [cursor=pointer]:
+        - /url: /
+        - generic [aria-hidden] [ref=f9e6]: ╳
+        - generic [ref=f9e7]:
+          - text: CARNAGE
+          - generic [ref=f9e8]: X-RAY
+      - navigation "Main navigation" [ref=f9e9]:
+        - link "Explore" [ref=f9e10] [cursor=pointer]:
+          - /url: /explore
+        - link "Vehicle systems" [ref=f9e11] [cursor=pointer]:
+          - /url: /systems
+        - link "Cybersecurity" [ref=f9e12] [cursor=pointer]:
+          - /url: /cybersecurity
+        - link "Threat atlas" [ref=f9e13] [cursor=pointer]:
+          - /url: /threats
+        - link "Knowledge" [ref=f9e14] [cursor=pointer]:
+          - /url: /knowledge
+      - generic [ref=f9e15]:
+        - link "Search knowledge" [ref=f9e16] [cursor=pointer]:
+          - /url: /knowledge
+        - link "Open explorer" [ref=f9e20] [cursor=pointer]:
+          - /url: /explore
+    - main [ref=f9e24]:
+      - generic [ref=f9e25]:
+        - generic [ref=f9e26]:
+          - generic [ref=f9e27]:
+            - paragraph [ref=f9e28]: GET TO KNOW THE MACHINE
+            - heading "Your car. Inside & out." [level=1] [ref=f9e29]: Your car.Inside & out.
+            - paragraph [ref=f9e30]: See what the parts do.Understand how they work together.Discover what keeps them secure.
+            - link "Start exploring" [ref=f9e31] [cursor=pointer]:
+              - /url: /explore?component=body
+            - generic [ref=f9e35]: Try the car. Move over a partto lift it, or tap a part below.
+          - generic [ref=f9e39]: Preparing your interactive car…
+        - generic [ref=f9e41]:
+          - generic [ref=f9e42]:
+            - text: YOUR SELECTED SYSTEM
+            - heading "Chassis & body" [level=2] [ref=f9e43]
+            - paragraph [ref=f9e44]: The structure that supports the vehicle and protects its occupants.
+          - link "How does it work?" [ref=f9e45] [cursor=pointer]:
+            - /url: /explore?component=body
+      - generic [ref=f9e48]:
+        - generic [ref=f9e49]:
+          - paragraph [ref=f9e50]: NO EXPERIENCE NEEDED
+          - heading "A simple way to look deeper." [level=2] [ref=f9e51]
+          - paragraph [ref=f9e52]: You don’t need to know the terminology. Start with any part that makes you curious.
+        - generic [ref=f9e53]:
+          - generic [ref=f9e54]:
+            - generic [ref=f9e55]: "01"
+            - heading "Choose a part" [level=3] [ref=f9e59]
+            - paragraph [ref=f9e60]: Touch the 3D car or pick a familiar system, like brakes or steering.
+            - link "Open the explorer" [ref=f9e61] [cursor=pointer]:
+              - /url: /explore
+          - generic [ref=f9e64]:
+            - generic [ref=f9e65]: "02"
+            - heading "See how it works" [level=3] [ref=f9e71]
+            - paragraph [ref=f9e72]: Read a plain-language explanation. Follow the connections when you’re ready.
+            - link "Browse the systems" [ref=f9e73] [cursor=pointer]:
+              - /url: /systems
+          - generic [ref=f9e76]:
+            - generic [ref=f9e77]: "03"
+            - heading "Understand the security" [level=3] [ref=f9e82]
+            - paragraph [ref=f9e83]: Learn what can go wrong, what protects the system, and where the limits are.
+            - link "Learn about protection" [ref=f9e84] [cursor=pointer]:
+              - /url: /cybersecurity
+      - generic [ref=f9e87]:
+        - generic [ref=f9e88]:
+          - generic [ref=f9e89]: THE BIGGER PICTURE
+          - generic [ref=f9e90]: MECHANICS → ELECTRONICS → SECURITY
+        - generic [ref=f9e91]:
+          - heading "Clarity across every layer." [level=2] [ref=f9e92]
+          - paragraph [ref=f9e93]: The same vehicle. Three connected ways to understand it.
+        - generic [ref=f9e94]:
+          - link [ref=f9e96] [cursor=pointer]:
+            - /url: /systems
+            - generic [ref=f9e108]:
+              - heading "What moves the car?" [level=3] [ref=f9e109]
+              - paragraph [ref=f9e110]: Engines, motors, gears, brakes and the physical parts you can see.
+              - generic [ref=f9e111]: Take a closer look
+          - link [ref=f9e116] [cursor=pointer]:
+            - /url: /knowledge?kind=Concept
+            - generic [ref=f9e140]:
+              - heading "What connects the parts?" [level=3] [ref=f9e141]
+              - paragraph [ref=f9e142]: Sensors take measurements. Computers make decisions. Networks carry information.
+              - generic [ref=f9e143]: Take a closer look
+          - link [ref=f9e148] [cursor=pointer]:
+            - /url: /cybersecurity
+            - generic [ref=f9e157]:
+              - heading "What protects the systems?" [level=3] [ref=f9e158]
+              - paragraph [ref=f9e159]: Keys, trusted software and carefully controlled connections.
+              - generic [ref=f9e160]: Take a closer look
+      - generic [ref=f9e164]:
+        - heading "A few things worth knowing." [level=2] [ref=f9e165]
+        - generic [ref=f9e166]:
+          - group [ref=f9e167]:
+            - generic "Do I need to understand cars first?" [ref=f9e168] [cursor=pointer]
+          - group [ref=f9e169]:
+            - generic "Is this a real vehicle model?" [ref=f9e170] [cursor=pointer]
+          - group [ref=f9e171]:
+            - generic "Are all modern cars autonomous?" [ref=f9e172] [cursor=pointer]
+          - link "About the project & sources" [ref=f9e173] [cursor=pointer]:
+            - /url: /about
+    - contentinfo [ref=f9e177]:
+      - link "CARNAGE X-RAY" [ref=f9e178] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=f9e179]: See the Machine. Understand the Security.
+      - generic [ref=f9e180]:
+        - link "About & sources" [ref=f9e181] [cursor=pointer]:
+          - /url: /about
+        - generic [ref=f9e185]: thecarnage.xyz · Independent education
+  - generic [ref=f9e188]:
+    - generic [ref=f9e189]: "[plugin:vite:oxc] Transform failed with 1 error: [PARSE_ERROR] Expected `}` but found `Identifier` ╭─[ src/components/ThreeVehicle.tsx:54:231 ] │ 54 │ return <group rotation={[0,-.25,0]}><primitive object={model} onPointerMove={move} onPointerOut={()=>onHover(null)} onClick={(e:ThreeEvent<MouseEvent>)=>{const part=partFor(e.object);if(part){e.stopPropagation();onPick(part);}} dispose={null}/></group>; │ ───┬─── │ ╰───── `}` expected ────╯"
+    - generic [ref=f9e190]: /home/sheriff/Desktop/carnage/src/components/ThreeVehicle.tsx
+    - generic [ref=f9e191]: at transformWithOxc (file:///home/sheriff/Desktop/carnage/node_modules/vite/dist/node/chunks/node.js:7618:19) at TransformPluginContext.transform (file:///home/sheriff/Desktop/carnage/node_modules/vite/dist/node/chunks/node.js:7690:26) at EnvironmentPluginContainer.transform (file:///home/sheriff/Desktop/carnage/node_modules/vite/dist/node/chunks/node.js:8582:51) at async loadAndTransform (file:///home/sheriff/Desktop/carnage/node_modules/vite/dist/node/chunks/node.js:20155:26) at async viteTransformMiddleware (file:///home/sheriff/Desktop/carnage/node_modules/vite/dist/node/chunks/node.js:20375:20)
+    - generic [ref=f9e192]:
+      - text: Click outside, press Esc key, or fix the code to dismiss.You can also disable this overlay by setting
+      - code [ref=f9e193]: server.hmr.overlay
+      - text: to
+      - code [ref=f9e194]: "false"
+      - text: in
+      - code [ref=f9e195]: vite.config.ts
+      - text: .

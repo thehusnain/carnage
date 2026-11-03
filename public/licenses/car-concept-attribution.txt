@@ -1,0 +1,12 @@
+Car Concept — model and textures by Eric Chadwick
+© 2024 Darmstadt Graphics Group GmbH
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Source: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept
+Source model originally derived from Unity Fan's public-domain concept car.
+
+Carnage X-Ray adaptations: material styling, hiding logo/license meshes and the
+illustrative engine mesh, plus pointer-driven part translations and separation.
+The GLB source bytes are retained unchanged; all adaptations occur at runtime.
+This is an exterior design study, not validated CAD or a model of every
+educational component. No author endorsement is implied.

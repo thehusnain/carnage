@@ -1,0 +1,14 @@
+import { components, topics, threats, protections, byId, type Component, type Mode } from '../data';
+import { SourceList, TopicLink } from './UI';
+
+export function ComponentInformation({ component: c, mode = 'Mechanical', technical }: { component: Component; mode?: Mode; technical: boolean }) {
+  return <div className="component-information" key={`${c.id}-${mode}`}>
+    <section><h3>{mode === 'Mechanical' ? 'What it does' : 'Start with the system'}</h3><p>{c.description}</p></section>
+    {(mode === 'Mechanical' || mode === 'Electronic') && <><section><h3>How it works</h3><p>{c.operation}</p>{technical && <p>{c.technical}</p>}</section><section><h3>{mode === 'Electronic' ? 'Control inputs → outputs' : 'Purpose'}</h3>{mode === 'Electronic' ? <div className="io-flow"><p><span>IN</span>{c.inputs.join(' · ')}</p><p><span>OUT</span>{c.outputs.join(' · ')}</p></div> : <p>{c.purpose}</p>}</section></>}
+    {mode === 'Network' && <section><h3>Communication interfaces</h3>{c.interfaces.length ? c.interfaces.map(id => <TopicLink key={id} to={`/knowledge/${id}`}>{byId(topics, id).name}</TopicLink>) : <p>This passive component has no direct network interface. Its related controllers are separate systems.</p>}{technical && <p>{c.technical}</p>}</section>}
+    {mode === 'Security' && <><section><h3>Security requirement</h3><p>{c.security}</p></section>{c.protections.slice(0, 3).map(id => <section key={id}><h3>{byId(protections, id).name}</h3><p>{byId(protections, id).requirement}</p></section>)}</>}
+    {mode === 'Threat' && <section><h3>Documented threat classes</h3>{c.threats.length ? c.threats.map(id => { const t = byId(threats, id); return <div className="linked-explanation" key={id}><TopicLink to={`/threats/${id}`}>{t.name}</TopicLink><p>{technical ? t.principle : t.definition}</p><small>Required access: {t.access}</small></div>; }) : <p>No direct digital threat is assigned to this passive component. Explore its controllers for relevant attack surfaces.</p>}</section>}
+    {mode === 'Protection' && <section><h3>Relevant protections</h3>{c.protections.length ? c.protections.map(id => { const p = byId(protections, id); return <div className="linked-explanation" key={id}><TopicLink to={`/cybersecurity/${id}`}>{p.name}</TopicLink><p>{technical ? p.technical : p.description}</p><small>{p.limitations}</small></div>; }) : <p>There is no direct digital control to authenticate. Passive mechanical integrity is a separate engineering concern.</p>}</section>}
+    <details><summary>Location, limitations & sources</summary><h3>Physical location</h3><p>{c.location}</p><h3>Limits of this model</h3><p>{c.limitations}</p>{c.prerequisites.length > 0 && <><h3>Helpful first concepts</h3>{c.prerequisites.map(id => <TopicLink key={id} to={`/knowledge/${id}`}>{byId(topics, id).name}</TopicLink>)}</>}<SourceList ids={c.sources}/></details>
+  </div>;
+}

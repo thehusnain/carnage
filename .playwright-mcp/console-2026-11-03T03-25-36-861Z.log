@@ -1,0 +1,31 @@
+[    1744ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:5220/node_modules/.vite/deps/react-dom_client.js?v=f51c317e:21548
+[    3848ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5220/favicon.ico:0
+[  149055ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=e618b29d:15802
+[  168363ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=e618b29d:15802
+[  383853ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5173/src/components/ThreeVehicle.tsx:0
+[  383985ms] [ERROR] %o
+
+%s
+
+%s
+ TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5173/src/components/ThreeVehicle.tsx The above error occurred in one of your React components. React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://127.0.0.1:5173/@vite/client:367
+[  383987ms] [ERROR] Carnage X-Ray rendering error TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5173/src/components/ThreeVehicle.tsx 
+    at Lazy (<anonymous>)
+    at Suspense (<anonymous>)
+    at section (<anonymous>)
+    at VehicleScene (http://127.0.0.1:5173/src/components/VehicleScene.tsx?t=1793676719424:48:32)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at Explore (http://127.0.0.1:5173/src/pages/Explore.tsx?t=1793676326840:14:28)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=3a6e49d4:4206:26)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=3a6e49d4:4835:25)
+    at main (<anonymous>)
+    at Layout (http://127.0.0.1:5173/src/components/Layout.tsx?t=1793676256616:17:19)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=3a6e49d4:4206:26)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=3a6e49d4:4888:19)
+    at Suspense (<anonymous>)
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=3a6e49d4:4840:29)
+    at BrowserRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=3a6e49d4:7306:26)
+    at PreferencesProvider (http://127.0.0.1:5173/src/preferences.tsx:33:39)
+    at ErrorBoundary (http://127.0.0.1:5173/src/main.tsx?t=1793676504341:13:1) @ http://127.0.0.1:5173/@vite/client:367
